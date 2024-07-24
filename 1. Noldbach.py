@@ -19,7 +19,6 @@ def countPrimes( n,s) :
              if((q[i] + q[i+1] + 1) in q):
                   count = count + 1
                   w.append(q[i]+ q[i+1]+1)
-            
      #    print(w)
         ans=""
         if(count>=s):
